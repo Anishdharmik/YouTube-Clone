@@ -1,0 +1,71 @@
+y{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.new{
+font-family: Arial;
+color: rgb(222, 145, 2);
+
+margin-bottom: 0px;
+font-weight: 600;
+}
+
+.mac{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 9px;
+}
+
+.charge{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.price{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.buy{
+    background-color: rgb(40, 117, 218);
+    border: none;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+t{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.8;
+}
+.amt{
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+.curr{
+    font-size: 16px;
+    color: grey;
+}
+.spike{
+    color: green;
+    
+}
+.after{
+    color: gray;
+}
+.loss{
+    color: red;
+}

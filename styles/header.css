@@ -1,0 +1,250 @@
+
+
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background-color: white;
+    border-bottom-width: 1px ;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(128, 128, 128, 0.239);
+    z-index: 100;
+}
+
+.left-sec{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.yt-logo{
+    height: 20px;
+}
+
+.mid-sec{
+    flex: 1;
+    display: flex;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 30px;
+    align-items:center;
+    
+}
+.searchbox{
+    height: 40px;
+    flex: 1;
+    border-color: rgb(204 204 204);
+    border-style: solid;
+    border-width: 1px;
+    font-size: 16px;
+    padding-left: 12px;
+    border-inline-end-style: initial;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    box-shadow: inset 0px 1px 2px rgb(238 238 238);
+    width: 0;
+}
+
+.search-bar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+  }
+
+.search-button{
+    height: 44px;
+    width: 64px;
+    border-color: rgb(204 204 204);
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(247 247 247);
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.search-button .tooltip{
+    position: absolute;
+    background-color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white ;
+    font-family: Roboto;
+    border-radius: 3px;
+    bottom: -55px;
+    opacity: 0;
+    pointer-events: none;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+.search-logo{
+    height: 25px;
+}
+.mic-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(248, 248, 248, 0.917);
+    position: relative;
+}
+.mic-button .tooltip{
+    position: absolute;
+    background-color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white ;
+    font-family: Roboto;
+    border-radius: 3px;
+    bottom: -55px;
+    opacity: 0;
+    pointer-events: none;
+    width: 150px;
+    left: -50px;
+}
+.mic-button:hover .tooltip{
+    opacity: 1;
+}
+
+
+.mic-logo{
+    height: 24px;
+}
+
+.right-sec{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 32px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    width: 182px;
+}
+
+.create{
+    position: relative;
+
+}
+
+.create .tooltip{
+    position: absolute;
+    background-color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white ;
+    font-family: Roboto;
+    border-radius: 3px;
+    bottom: -55px;
+    opacity: 0;
+    pointer-events: none;
+    left: -20px;
+}
+
+.create:hover .tooltip{
+    opacity: 1;
+}
+
+.create-logo{
+    height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.ytapps{
+    position: relative;
+}
+
+.ytapps .tooltip{
+    position: absolute;
+    background-color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white ;
+    font-family: Roboto;
+    border-radius: 3px;
+    bottom: -55px;
+    opacity: 0;
+    width: 105px;
+    pointer-events: none;
+    left: -40px;
+}
+.ytapps:hover .tooltip{
+    opacity: 1;
+}
+
+.tool-logo{
+    height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.bell-container .tooltip{
+    position: absolute;
+    background-color: grey;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white ;
+    font-family: Roboto;
+    border-radius: 3px;
+    bottom: -55px;
+    opacity: 0;
+    pointer-events: none;
+    left: -20px;
+}
+
+.bell-container:hover .tooltip{
+    opacity: 1;
+}
+
+
+.bell-logo{
+    height: 24px;
+    vertical-align: middle;
+}
+
+
+.profile-logo{
+    height: 32px;
+    border-radius: 17px;
+    vertical-align: middle;
+}
+
+.bell-container{
+    position: relative;
+}
+
+.noti-count{
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom:2px ;
+    border-radius: 10px;
+}
